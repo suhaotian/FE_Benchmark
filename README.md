@@ -2,6 +2,8 @@
 
 Click below links, and open browser developer tools, Click `+1` button, see console :)
 
+Compare to [Juzoom/FE_Benchmark](https://github.com/Juzoom/FE_Benchmark)
+
 ## React online example
 [React](https://suhaotian.github.io/FE_Benchmark/react)
 
@@ -16,7 +18,7 @@ Test output:
 
 ![vue output](./pics/vue-p.png)
 
-## How to use
+## How to build your owns
 
 ```bash
 npm install && npm run prepare
