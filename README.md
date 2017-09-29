@@ -2,7 +2,6 @@
 
 Click below links, and open browser developer tools, Click `+1` button, see console :)
 
-Compare to [Juzoom/FE_Benchmark](https://github.com/Juzoom/FE_Benchmark)
 
 ## React online example
 [React](https://suhaotian.github.io/FE_Benchmark/react)
@@ -39,3 +38,5 @@ npm run publish
 * create-react-app
 * vue-cli
 
+## Why have this ?
+Compares to [Juzoom/FE_Benchmark](https://github.com/Juzoom/FE_Benchmark).
