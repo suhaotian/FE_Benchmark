@@ -8,7 +8,7 @@ Click below online example links, and open browser developer tools, Click `+1` b
 
 Test output:
 
-![vue output](./pics/vue-p.png)
+![vue output](./pics/vue.png)
 
 
 ## React 16 online example
