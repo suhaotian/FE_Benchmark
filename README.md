@@ -1,6 +1,6 @@
 # Vue/React performance example
 
-Click below links, and open browser developer tools, Click `+1` button, see console :)
+Click below online example links, and open browser developer tools, Click `+1` button, see console :)
 
 
 ## React online example
