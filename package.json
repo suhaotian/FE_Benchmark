@@ -1,0 +1,34 @@
+{
+  "name": "fe_benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:react && npm run build:vue && npm run move",
+    "build:react": "cd react && npm run build",
+    "build:vue": "cd vue && npm run build",
+    "del": "del-cli ./build/vue/* && del-cli ./build/react/*",
+    "move": "npm run del && cpr ./vue/dist ./build/vue && cpr ./react/build ./build/react",
+    "publish": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhaotian/FE_Benchmark.git"
+  },
+  "keywords": [
+    "react",
+    "vue"
+  ],
+  "author": "suhaotian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suhaotian/FE_Benchmark/issues"
+  },
+  "homepage": "https://github.com/suhaotian/FE_Benchmark#readme",
+  "devDependencies": {
+    "cpr": "^2.2.0",
+    "del-cli": "^1.1.0",
+    "gh-pages": "^1.0.0"
+  }
+}
