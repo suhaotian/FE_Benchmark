@@ -16,7 +16,7 @@ Test output:
 
 Test output:
 
-![react output](./pics/react-p.png)
+![react output](./pics/react16-p.png)
 
 
 ## React 15 online example
@@ -24,7 +24,7 @@ Test output:
 
 Test output:
 
-![react output](./pics/react15.png)
+![react output](./pics/react15-p.png)
 
 ## How to build your owns
 

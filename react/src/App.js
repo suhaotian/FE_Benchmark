@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props)
     
-    this.state = {content: 5000, x: 0}
+    this.state = {content: 10000, x: 0}
   }
 
   componentDidUpdate() {
@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     var Divsdom=[]
     const {x, content} = this.state
-    for(var i = 0;i<5000;i++){
+    for(var i = 0;i<content;i++){
       Divsdom.push(<div key={i}>{x+i}</div>);
     }
     return (

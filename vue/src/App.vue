@@ -21,10 +21,9 @@ export default {
   },
   data() {
     return {
-            text: '',
-            content: 5000,
-            x:0
-        }
+      content: 10000,
+      x:0
+    }
   },
 
 }
