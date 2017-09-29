@@ -1,5 +1,9 @@
 node_modules
-react/build
+
 vue/dist
+react/build
+react15/build
+
+build/react15/*
 build/react/*
 build/vue/*
