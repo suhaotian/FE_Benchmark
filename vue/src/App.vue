@@ -2,7 +2,7 @@
   <div id="app">
       <button @click="addDOM">+1</button>
       <div class="contanier">
-          <div v-for='i in content'>{{i+x}}</div>
+          <div v-for='i in content' :key='i'>{{i+x}}</div>
       </div>
   </div>
 </template>
