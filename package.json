@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:react && npm run build:vue && npm run move",
+    "prepare": "cd react && npm install && cd .. && cd vue && npm install",
+    "build": "npm run build:react && npm run build:vue && npm run copy",
     "build:react": "cd react && npm run build",
     "build:vue": "cd vue && npm run build",
     "del": "del-cli ./build/vue/* && del-cli ./build/react/*",
-    "move": "npm run del && cpr ./vue/dist ./build/vue && cpr ./react/build ./build/react",
+    "copy": "npm run del && cpr ./vue/dist ./build/vue && cpr ./react/build ./build/react",
     "publish": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
